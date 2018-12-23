@@ -1,0 +1,64 @@
+
+
+/*
+Constant css
+*/
+
+@import "_variables.scss";
+
+body{   
+    font-family: $work-sans;
+    font-weight: $regular;
+    line-height: 1.6;
+    font-size: 15px;
+} 
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-family: $work-sans;
+    font-weight: $regular; 
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 16px;
+}
+h6{
+    font-size: 15px;
+}
+ul{
+    margin-bottom: 0;
+}
+hr{
+    border-bottom: 1px solid #ddd;
+}
+.fi:before{
+    margin-left: 0;
+}
+
+a:hover,
+a:focus,
+a{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+.navbar.navbar-expand-lg{
+    padding: 0;
+} 
+figure {
+    margin: 0;
+}
+  
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #f1f1f1 inset!important;
+}
