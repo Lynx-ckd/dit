@@ -5,7 +5,7 @@ include './inc/header.php';
 <?php include './inc/nav.php'; ?>
 
 <main>
-	<section class="banner-inner animatedParent">
+	<section class="banner-inner animatedParent animateOnce ">
 		<div class="container">
 			<div class="banner-content animated slowest growIn">
 				<div class="text-slider">
@@ -18,7 +18,7 @@ include './inc/header.php';
 		</div>
 	</section>
 	<!-- about-content -->
-	<section class="section-gap about-content animatedParent">
+	<section class="section-gap about-content animatedParent animateOnce ">
 		<div class="container">
 			<div class="about-wrapper is-relative">
 				<figure class="side-img animated slowest bounceInRight">
@@ -39,6 +39,7 @@ include './inc/header.php';
 			</div>
 		</div>
 	</section>
+	<!-- about mile stone -->
 	<section class="mile-stone section-gap dual-slant bslant-gray tslant-white">
 		<div class="container">
 			<div class="mile-wrapper">
@@ -75,16 +76,13 @@ include './inc/header.php';
 	</section>
 
 	<!-- team -->
-	<section class="team section-gap bottom-slant slant-white animatedParent">
+	<section class="team section-gap bottom-slant slant-white animatedParent animateOnce ">
 		<div class="container">
-			<article class="mini-title text-center">
+			<article class="mini-title text-center animated fadeInUpShort">
 				<h2>Our team</h2>
 			</article>
 			<div class="team-wrapper text-center">
-				<div class="team-member is-relative animated slowest growIn">
-					<figure>
-						<img src="assets/images/chairman.jpg" alt="member">
-					</figure>
+				<div class="team-member is-relative animated fadeInUpShort">
 					<figcaption class="">
 						<h4>Jakie Chen</h4>
 						<span>Chairman</span>
@@ -94,11 +92,11 @@ include './inc/header.php';
 							<li class="skew-rad insta"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-instagram"></i></a></li>
 						</ul>
 					</figcaption>
-				</div>
-				<div class="team-member is-relative  animated slowest growIn">
 					<figure>
-						<img src="assets/images/front.jpg" alt="member">
+						<img src="assets/images/chairman.jpg" alt="member">
 					</figure>
+				</div>
+				<div class="team-member is-relative  animated fadeInUpShort">
 					<figcaption class="">
 						<h4>Jakie Chen</h4>
 						<span>Front-end developer</span>
@@ -108,14 +106,67 @@ include './inc/header.php';
 							<li class="skew-rad insta"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-instagram"></i></a></li>
 						</ul>
 					</figcaption>
+					<figure>
+						<img src="assets/images/front.jpg" alt="member">
+					</figure>
 				</div>
-				<div class="team-member is-relative animated slowest growIn">
+				<div class="team-member is-relative animated fadeInUpShort">
+					<figcaption class="">
+						<h4>Jakie Chen</h4>
+						<span>Graphics designer</span>
+						<ul>
+							<li class="skew-rad fb"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-facebook-f "></i></a></li>
+							<li class="skew-rad twitter"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-twitter "></i></a></li>
+							<li class="skew-rad insta"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</figcaption>
 					<figure>
 						<img src="assets/images/designer.jpg" alt="member">
+					</figure>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br> <!-- founder -->
+			<article class="mini-title text-center animated fadeInUpShort">
+				<h2>Founders</h2>
+			</article>
+			<div class="team-wrapper text-center">
+				<div class="team-member is-relative animated fadeInUpShort">
+					<figure>
+						<img src="assets/images/women2.jpg" alt="member">
+					</figure>
+					<figcaption class="">
+						<h4>Jakie Chen</h4>
+						<span>Developer</span>
+						<ul>
+							<li class="skew-rad fb"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-facebook-f "></i></a></li>
+							<li class="skew-rad twitter"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-twitter "></i></a></li>
+							<li class="skew-rad insta"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</figcaption>
+				</div>
+				<div class="team-member is-relative animated  fadeInUpShort">
+					<figure>
+						<img src="assets/images/men.jpg" alt="member">
 					</figure>
 					<figcaption class="">
 						<h4>Jakie Chen</h4>
 						<span>Graphics designer</span>
+						<ul>
+							<li class="skew-rad fb"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-facebook-f "></i></a></li>
+							<li class="skew-rad twitter"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-twitter "></i></a></li>
+							<li class="skew-rad insta"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-instagram"></i></a></li>
+						</ul>
+					</figcaption>
+				</div>
+				<div class="team-member is-relative  animated fadeInUpShort">
+					<figure>
+						<img src="assets/images/front.jpg" alt="member">
+					</figure>
+					<figcaption class="">
+						<h4>Jakie Chen</h4>
+						<span>Sr. Developer</span>
 						<ul>
 							<li class="skew-rad fb"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-facebook-f "></i></a></li>
 							<li class="skew-rad twitter"><a href="!#" target="_blank" class="skew-none "><i class="fab fa-twitter "></i></a></li>
@@ -128,7 +179,7 @@ include './inc/header.php';
 	</section>
 
 	<!-- clients -->
-	<section class="clients section-gap bottom-slant slant-orange inner animatedParent" data-sequence='1000'>
+	<section class="clients section-gap bottom-slant slant-orange inner animatedParent animateOnce " data-sequence='1000'>
 		<div class="container">
 			<article class="title text-center  animated slowest bounceInUp" data-id="1">
 				<h2>Our clients</h2>
@@ -168,7 +219,7 @@ include './inc/header.php';
 		</div>
 	</section>
 
-	<section class="contact-link section-gap bottom-slant slant-dgray text-center animatedParent">
+	<section class="contact-link section-gap bottom-slant slant-dgray text-center animatedParent animateOnce ">
 		<div class="container  animated slowest growIn">
 			<h3>If you are satisfied, then contact us</h3>
 			<a href="!#" class="btn btn-white-ghost">contact us</a>

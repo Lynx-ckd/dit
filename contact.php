@@ -69,7 +69,7 @@ include './inc/header.php';
 										</div>
 										<div class="col-md-6">
 											<div class="group">     
-												<input class="inputMaterial" type="Email" required>
+												<input class="inputMaterial" type="text" required>
 												<span class="highlight"></span>
 												<span class="bar"></span>
 												<label>Email address <span class="color">*</span></label>
@@ -100,7 +100,7 @@ include './inc/header.php';
 											</div>
 										</div>
 									</div>
-									<button class="btn btn-primary-c pull-right">Login<i class="fas fa-angle-right"></i></button>
+									<button class="btn btn-primary-c pull-right">Send<i class="fas fa-angle-right"></i></button>
 									<div class="clearfix"></div>
 								</form>
 							</div>
@@ -108,6 +108,9 @@ include './inc/header.php';
 					</div>
 				</div>
 				
+				<div class="location">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.3698990920875!2d85.31633875548525!3d27.70586327268036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19075c50597d%3A0x21012b54b77df0d3!2sBag+Bazar+Sadak%2C+Kathmandu+44600!5e0!3m2!1sen!2snp!4v1548262928772" allowfullscreen></iframe>
+				</div>
 				
 			</div>
 		</section>
